@@ -43,10 +43,10 @@ def main(workflow: Workflow):
         ).set_icon_file(
             path=str(project.icon),
         ).set_alt_mod(
-            subtitle="Open in Finder...",
+            subtitle="Reveal in Finder...",
             arg=f"open {project.path}",
         ).set_cmd_mod(
-            subtitle="Open in Finder...",
+            subtitle="Reveal in Finder...",
             arg=f"open {project.path}",
         )
 
