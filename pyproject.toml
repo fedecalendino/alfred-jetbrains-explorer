@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "JetBrains Explorer"
+version = "0.1.0"
+description = "Search for your latest JetBrains' projects"
+documentation = "https://github.com/fedecalendino/alfred-jetbrains-explorer/blob/main/README.md"
+homepage = "https://github.com/fedecalendino/alfred-jetbrains-explorer"
+license = "MIT"
+
+authors = [
+    "Fede Calendino <fede@calendino.com>"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+alfred-pyflow = "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+ddt = "^1.6.0"
+coverage = "^7.2.5"
+
+[tool.black]
+line-length = 150
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
