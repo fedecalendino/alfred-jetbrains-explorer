@@ -30,6 +30,9 @@ def main(workflow: Workflow):
         if not project.ide.installed:
             continue
 
+        if not project.exists:
+            continue
+
         title = project.fullname
 
         if ide == ALL:

@@ -50,6 +50,10 @@ class Project:
         return f"{self.name}"
 
     @property
+    def exists(self) -> bool:
+        return (self.path / Path(".idea/workspace.xml")).exists()
+
+    @property
     def icon(self) -> Path:
         icon = self.path / Path(".idea/icon.png")
 
