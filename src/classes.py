@@ -2,6 +2,7 @@ from datetime import datetime
 from os.path import expanduser
 from pathlib import Path
 
+INTELLI_J_IDEA = "IntelliJIdea"
 HOME = Path(expanduser("~"))
 
 
@@ -12,11 +13,21 @@ class IDE:
 
     @property
     def app(self) -> Path:
-        return Path(f"/Applications/{self.name}.app")
+        name = self.name
+
+        if self.name == INTELLI_J_IDEA:
+            name = "IntelliJ IDEA Ultimate"
+
+        return Path(f"/Applications/{name}.app")
 
     @property
     def icon(self):
-        return self.app / Path(f"Contents/Resources/{self.name.lower()}.icns")
+        name = self.name
+
+        if self.name == INTELLI_J_IDEA:
+            name = "idea"
+
+        return self.app / Path(f"Contents/Resources/{name.lower()}.icns")
 
     @property
     def installed(self) -> bool:
