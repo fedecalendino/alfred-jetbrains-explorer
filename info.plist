@@ -47,6 +47,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>3FD7C958-612D-4C12-9497-44E0F823262A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E196F653-0431-4DEC-A987-4E49C0F16675</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>65CCB65D-8837-452E-A835-355CED69B6E2</key>
 		<array>
 			<dict>
@@ -74,6 +87,32 @@
 			</dict>
 		</array>
 		<key>7D0C2933-872C-4DEF-A4C6-593621C50D54</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E196F653-0431-4DEC-A987-4E49C0F16675</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B4E64EDA-1C2C-466B-8AB3-D0BF7C833FE7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E196F653-0431-4DEC-A987-4E49C0F16675</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8519EC1-AAC0-406E-819D-0E9E6D0657E1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -286,55 +325,6 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>dg || datagrip</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>/usr/bin/python3 ./dist/main.py DataGrip $@</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Searching for DataGrip projects...</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>65CCB65D-8837-452E-A835-355CED69B6E2</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
 				<string>ds || dataspell</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
@@ -384,7 +374,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>ij || idea || intellij</string>
+				<string>dg || datagrip</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -396,7 +386,7 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>/usr/bin/python3 ./dist/main.py "IntelliJIdea" $@</string>
+				<string>/usr/bin/python3 ./dist/main.py DataGrip $@</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -404,7 +394,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for IntelliJ projects...</string>
+				<string>Searching for DataGrip projects...</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -413,7 +403,56 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>6649015E-2F9D-4FB6-B061-18A2702A1D4E</string>
+			<string>65CCB65D-8837-452E-A835-355CED69B6E2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>gl || goland</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 ./dist/main.py GoLand $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Searching for GoLand projects...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>3FD7C958-612D-4C12-9497-44E0F823262A</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -439,6 +478,55 @@
 			<string>E196F653-0431-4DEC-A987-4E49C0F16675</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ps || phpstorm</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 ./dist/main.py PhpStorm $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Searching for PhpStorm projects...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>B4E64EDA-1C2C-466B-8AB3-D0BF7C833FE7</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -486,6 +574,55 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>3C7D14B1-6FBC-45B0-861C-142539746460</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ij || idea || intellij</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 ./dist/main.py "IntelliJIdea" $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Searching for IntelliJ projects...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6649015E-2F9D-4FB6-B061-18A2702A1D4E</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -587,6 +724,55 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>rm || rubymine</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>/usr/bin/python3 ./dist/main.py RubyMine $@</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Searching for RubyMine projects...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C8519EC1-AAC0-406E-819D-0E9E6D0657E1</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Open your latest projects in JetBrains' IDEs. 💻</string>
@@ -602,51 +788,72 @@
 		<key>31DFDDEB-4B20-4B96-8072-F55F0AA66EF0</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>330</real>
 			<key>ypos</key>
-			<real>615</real>
+			<real>465</real>
 		</dict>
 		<key>3C7D14B1-6FBC-45B0-861C-142539746460</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>330</real>
 			<key>ypos</key>
-			<real>465</real>
+			<real>315</real>
+		</dict>
+		<key>3FD7C958-612D-4C12-9497-44E0F823262A</key>
+		<dict>
+			<key>xpos</key>
+			<real>330</real>
+			<key>ypos</key>
+			<real>165</real>
 		</dict>
 		<key>65CCB65D-8837-452E-A835-355CED69B6E2</key>
 		<dict>
 			<key>xpos</key>
-			<real>180</real>
+			<real>30</real>
 			<key>ypos</key>
 			<real>165</real>
 		</dict>
 		<key>6649015E-2F9D-4FB6-B061-18A2702A1D4E</key>
 		<dict>
 			<key>xpos</key>
-			<real>180</real>
+			<real>30</real>
 			<key>ypos</key>
 			<real>315</real>
 		</dict>
 		<key>7D0C2933-872C-4DEF-A4C6-593621C50D54</key>
 		<dict>
 			<key>xpos</key>
-			<real>30</real>
+			<real>180</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>165</real>
 		</dict>
 		<key>A39D6DEE-818E-4668-8226-CD6184252446</key>
 		<dict>
 			<key>xpos</key>
+			<real>330</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>B4E64EDA-1C2C-466B-8AB3-D0BF7C833FE7</key>
+		<dict>
+			<key>xpos</key>
+			<real>180</real>
+			<key>ypos</key>
+			<real>315</real>
+		</dict>
+		<key>C8519EC1-AAC0-406E-819D-0E9E6D0657E1</key>
+		<dict>
+			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>165</real>
+			<real>465</real>
 		</dict>
 		<key>E196F653-0431-4DEC-A987-4E49C0F16675</key>
 		<dict>
 			<key>xpos</key>
-			<real>430</real>
+			<real>580</real>
 			<key>ypos</key>
-			<real>315</real>
+			<real>240</real>
 		</dict>
 		<key>E3627B05-542B-4D16-9EF3-EFBDE53D672A</key>
 		<dict>
@@ -658,7 +865,7 @@
 		<key>EB9824EA-CB38-4DB0-8951-A84081C92A06</key>
 		<dict>
 			<key>xpos</key>
-			<real>185</real>
+			<real>180</real>
 			<key>ypos</key>
 			<real>15</real>
 		</dict>
