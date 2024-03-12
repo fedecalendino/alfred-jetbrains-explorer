@@ -185,7 +185,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for DataGrip projects...</string>
+				<string>Search for DataGrip projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -234,7 +234,7 @@
 				<key>subtext</key>
 				<string>jb</string>
 				<key>title</key>
-				<string>Searching for JetBrains projects...</string>
+				<string>Search for JetBrains projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -283,7 +283,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for CLion projects...</string>
+				<string>Search for CLion projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -332,7 +332,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for DataSpell projects...</string>
+				<string>Search for DataSpell projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -381,7 +381,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for IntelliJ projects...</string>
+				<string>Search for IntelliJ projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -430,7 +430,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for GoLand projects...</string>
+				<string>Search for GoLand projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -502,7 +502,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for PhpStorm projects...</string>
+				<string>Search for PhpStorm projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -551,7 +551,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for PyCharm projects...</string>
+				<string>Search for PyCharm projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -600,7 +600,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for RubyMine projects...</string>
+				<string>Search for RubyMine projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -649,7 +649,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for RustRover projects...</string>
+				<string>Search for RustRover projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -698,7 +698,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Searching for WebStorm projects...</string>
+				<string>Search for WebStorm projects</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
